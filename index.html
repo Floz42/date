@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pignouf</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+        body {
+            font-family: 'Yusei Magic', sans-serif;
+        }
+        #div {
+            position: fixed;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        #date {
+            font-size: 8em;
+        }
+        h6 {
+            font-size: 3em;
+        }
+    </style>
+    <div id="div">
+        <h1 id="date"></h1>
+        <h6>Vous pouvez manger chez Pignouf ;)</h6>
+    </div>
+</body>
+<script>
+    document.getElementById('date').textContent = 'Aujourd\'hui nous sommes le 01/02/2021';
+</script>
+</html>
